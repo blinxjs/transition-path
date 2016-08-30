@@ -23,7 +23,7 @@ function extractSegmentParams(name, state) {
 }
 
 function transitionPath(toState, fromState) {
-    var fromStateIds = fromState ? nameToIDs(fromState.name) : [];
+    var fromStateIds = (fromState && fromState.name) ? nameToIDs(fromState.name) : [];
     var toStateIds = nameToIDs(toState.name);
     var maxI = Math.min(fromStateIds.length, toStateIds.length);
 

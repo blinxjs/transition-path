@@ -14,7 +14,7 @@ function extractSegmentParams(name, state) {
 }
 
 function transitionPath(toState, fromState) {
-    const fromStateIds = fromState ? nameToIDs(fromState.name) : [];
+    const fromStateIds = (fromState && fromState.name) ? nameToIDs(fromState.name) : [];
     const toStateIds = nameToIDs(toState.name);
     const maxI = Math.min(fromStateIds.length, toStateIds.length);
 
