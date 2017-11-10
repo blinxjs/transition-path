@@ -1,3 +1,23 @@
+<a name="4.0.1"></a>
+## [4.0.1](https://github.com/router5/transition-path/compare/v4.0.0...v4.0.1) (2016-09-22)
+
+
+### Bug Fixes
+
+* don't ignore modules in npm ([b9316af](https://github.com/router5/transition-path/commit/b9316af))
+
+
+
+<a name="4.0.0"></a>
+# [4.0.0](https://github.com/router5/transition-path/compare/v3.0.0...v4.0.0) (2016-09-22)
+
+
+### Features
+
+* update to router5 v4 ([36062ad](https://github.com/router5/transition-path/commit/36062ad))
+
+
+
 <a name="3.0.0"></a>
 # 3.0.0 (2016-01-18)
 
